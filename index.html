@@ -36,15 +36,15 @@
                 computed: {
                     infoMessage: function () {
                         if (this.inProgress) {
-                            return 'C\'est au tour de ' + this.currentTurn
+                            return 'C\'est au tour de ' + this.currentTurn;
                         }
 
                         if (this.winner) {
-                            return this.winner + ' a gagné !'
+                            return this.winner + ' a gagné !';
                         }
 
                         if (!this.winner && !this.inProgress) {
-                            return 'Égalité'
+                            return 'Égalité';
                         }
                     }
                 }
