@@ -1,3 +1,7 @@
+body{
+    text-align: center;
+}
+
 #game-view {
     width: 500px;
     margin: auto;

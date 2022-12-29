@@ -11,7 +11,7 @@ class Game {
                 this.squares[i].value = this.currentTurn;
     
                 this.movesMade; //Incrémentation du nombre de 'O' ou 'X' faits
-                this.checkForWinner();  //On vérifie s'il un joueur a gagné
+                this.checkForWinner();  //On vérifie si un joueur a gagné
     
                 //Si 'O' a joué, alors c'est au tour de 'X' de jouer
                 this.currentTurn = (this.currentTurn === Game.O) ? Game.X : Game.O
