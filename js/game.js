@@ -39,7 +39,7 @@ class Game {
                 if(sqA.value && sqA.value === sqB.value && sqA.value === sqC.value) {
                     //Si a, b et c sont un 'O' ou 'X'...
                     this.inProgress = false;    //Le jeu s'arrête
-                    this.winner = sqA.value; //'O' ou 'X' est le symbole gagnant
+                    this.winner = sqA.value;    //'O' ou 'X' est le symbole gagnant
                     sqA.isHighLighted = sqB.isHighLighted = sqC.isHighLighted = true;   //Ligne gagnante en surbrillance
                 }
             });
