@@ -20,7 +20,7 @@
                     v-for="(square, i) in squares"
                     v-on:click="activeGame.makeMove(i)"
                     v-bind:class="{ highlighted: square.isHighlighted }"
-                    class="game-view-square">
+                    class="game-view-case">
                     {{ square.value }}
                 </div>
             </div>
