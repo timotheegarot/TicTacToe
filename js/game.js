@@ -2,7 +2,7 @@ class Game {
     constructor() {
         this.inProgress = true; //Le jeu est en cours
         this.winner = null; //'O' ou 'X'
-        this.currentTurn = Game.O;  //Premier joueur est toujours 'O'
+        this.currentTurn = Game.X;  //Premier joueur est toujours 'X'
         this.movesMade = 0; //'O' ou 'X' sur le morpion
         this.squares = new Array(9).fill().map(s => new Square());  //Construction de l'aire de jeu
         
